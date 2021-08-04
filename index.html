@@ -14,10 +14,8 @@
       rel="stylesheet"
     />
     <!--Ionic Font-->
-    <link
-      rel="stylesheet"
-      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
-    />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
     <!--Header-->
@@ -69,18 +67,19 @@
             <ul class="social-icons">
               <li>
                 <a href="https://web.facebook.com/Dedhie.210"
-                  target="_blank" ><i class="ion-social-facebook"></i
-                ></a>
+                  target="_blank" ><ion-icon name="logo-facebook"></ion-icon></a>
               </li>
               <li>
                 <a href="https://www.instagram.com/dedi_ed/"
-                  target="_blank" ><i class="ion-social-instagram"></i
-                ></a>
+                  target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/dedi-s-kom/"
-                  target="_blank" ><i class="ion-social-linkedin"></i
-                ></a>
+                  target="_blank" ><ion-icon name="logo-linkedin"></ion-icon></a>
+              </li>
+              <li>
+                <a href="https://github.com/Dedi-edot"
+                  target="_blank" ><ion-icon name="logo-github"></ion-icon></a>
               </li>
             </ul>
           </nav>
@@ -136,11 +135,9 @@
               <h3>Tribute Page (HTML + CSS)</h3></a>
             </li>
             <li class="nav-list-portfolio"><a class="linkportfolio" href="https://codepen.io/dedi-edot/pen/xxdadOr" target="_blank">
-              <h3>Market V2.3 (HTML + JAVASCRIPT)</h3></a>
+              <h3>Market V2.3 (HTML + Javascript)</h3></a>
             </li>
-            <li class="nav-list-portfolio"><a class="linkportfolio" href="https://github.com/Dedi-edot" target="_blank">
-              <h3>My Github Repository</h3></a>
-            </li>
+            
           </ul>
           
         </div>
@@ -150,12 +147,19 @@
     <section class="contact-me" id="contact-me">
       <div class="content-wrap">
         <h1>Contact Me</h1>
+        <div class="contact-icon">
+          <ion-icon name="home-outline"></ion-icon>
         <p>
-          Address: Dsn. Sembang RT01 RW05, Ds. Belendung, Kec. Klari. Karawang -
+           Dsn. Sembang RT01 RW05, Ds. Belendung, Kec. Klari. Karawang -
           West Java 41371
         </p>
-        <p>Email: id.dedi81@gmail.com / dedi.id@yahoo.com</p>
-        <p>Phone No. 085711170818</p>
+      </div>
+      <div class="contact-icon">
+        <ion-icon name="mail-outline"></ion-icon><p> id.dedi81@gmail.com / dedi.id@yahoo.com</p>
+      </div>
+      <div class="contact-icon">
+        <ion-icon name="call-outline"></ion-icon><p> 085711170818</p>
+      </div>
       </div>
     </section>
     <!-- Footer -->

@@ -155,8 +155,6 @@ header {
 }
 
 .social-icons a {
-  border-radius: 50%;
-  border: 1px solid #444444;
   width: 40px;
   height: 40px;
   display: block;
@@ -169,6 +167,11 @@ header {
 .social-icons a:hover {
   color: #18ba60;
   border: 1 px solid #18ba60;
+}
+
+ion-icon {
+  font-size: 32px;
+  margin-right: 0.5em;
 }
 
 .work {
@@ -208,6 +211,13 @@ header {
 .contact-me {
   padding: 5em 0;
   overflow: auto;
+}
+
+.contact-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
