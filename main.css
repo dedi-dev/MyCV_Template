@@ -61,6 +61,10 @@ header {
   color: #ffffff;
 }
 
+.navigation a:hover {
+  color: yellow;
+}
+
 .intro {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     url(main-bg.jpg);
@@ -208,6 +212,10 @@ ion-icon {
   color: white;
 }
 
+.linkportfolio:hover {
+  color: yellow;
+}
+
 .contact-me {
   padding: 5em 0;
   overflow: auto;
@@ -225,6 +233,21 @@ ion-icon {
   padding: 5em 0;
   color: #ffffff;
   overflow: auto;
+}
+
+.link-footer {
+  bottom: 0;
+  text-align: right;
+}
+
+.link-footer a {
+  text-decoration: none;
+  color: #ffffff;
+  align-items: center;
+}
+
+.link-footer a:hover {
+  color: yellow;
 }
 
 @media (max-width: 1170px) {
